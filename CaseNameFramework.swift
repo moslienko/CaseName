@@ -41,7 +41,7 @@ extension String {
         let isConsonant = isConsonantLetter(name: nameSuffix)
         
         if nameSuffix == "ь" {
-           return optionOne(name: name)
+            return optionOne(name: name)
         }
         
         if nameSuffix == "й" || isConsonant  {
@@ -130,7 +130,7 @@ extension String {
                 instrumental: String(name.dropLast()) + "ем",
                 prepositional: getAboutTitle(firstLeter: name.prefix(1)) +  String(name.dropLast()) + "е"
             )
-
+            
         }
         else {
             
@@ -176,8 +176,8 @@ extension String {
     /**
      Склонение по второму варианту - мужские имена, оканчивающиеся на согласный и на –й:
      - parameters:
-        - name: Имя
-        - consonant: Оканчивается на согласную
+     - name: Имя
+     - consonant: Оканчивается на согласную
      */
     func optionTwo(name:String,consonant:Bool) -> cases {
         if consonant {
@@ -192,7 +192,7 @@ extension String {
                 instrumental: correctName + endingWordForT,
                 prepositional: getAboutTitle(firstLeter: name.prefix(1)) + correctName + "е"
             )
-
+            
         }
         else {
             
@@ -221,7 +221,7 @@ extension String {
             instrumental: String(name.dropLast()) + "ой",
             prepositional:getAboutTitle(firstLeter: name.prefix(1)) + String(name.dropLast()) + "е"
         )
-
+        
     }
     
     /**
@@ -231,7 +231,7 @@ extension String {
     func endingName(name:String) -> cases {
         let endingName = name.suffix(2)
         let endingNameOneLetter = name.suffix(1)
-
+        
         if endingName == "ия" {
             //род.,дат.,пр.падежи - одинаково
             let genitive = String(name.dropLast(2)) + "ии"
@@ -258,11 +258,11 @@ extension String {
             return cases.init(genitive:genitive,dative:dative, accusative:accusative,instrumental:instrumental,prepositional:prepositional)
         }
         //По умолчанию
-            let genitive = String(name.dropLast()) + "е"
-            let accusative = String(name.dropLast()) + "е"
-            let prepositional = String(name.dropLast()) + "е"
-            
-            return cases.init(genitive:genitive,dative:"", accusative:accusative,instrumental:"",prepositional:prepositional)
+        let genitive = String(name.dropLast()) + "е"
+        let accusative = String(name.dropLast()) + "е"
+        let prepositional = String(name.dropLast()) + "е"
+        
+        return cases.init(genitive:genitive,dative:"", accusative:accusative,instrumental:"",prepositional:prepositional)
     }
     
     /**
@@ -278,7 +278,7 @@ extension String {
             instrumental: caseWithEndName.instrumental != "" ? caseWithEndName.instrumental : String(name.dropLast()) + "ей",
             prepositional:getAboutTitle(firstLeter: name.prefix(1)) + caseWithEndName.prepositional
         )
-
+        
     }
     
 }
@@ -295,7 +295,7 @@ let middleName1 = ["Евгеньевич", "Владимировна", "Ники
 
 
 func demoName(names:[String]) {
-
+    
     for name in names {
         print ("И.П: ",name)
         print ("Р.П: ",name.caseName().genitive)
@@ -305,7 +305,7 @@ func demoName(names:[String]) {
         print ("П.П: ",name.caseName().prepositional)
         
         print ("\n")
-
+        
     }
 }
 
