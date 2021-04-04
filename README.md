@@ -6,15 +6,6 @@
    <a href="https://developer.apple.com/swift/">
       <img src="https://img.shields.io/badge/Swift-5.2-orange.svg?style=flat" alt="Swift 5.2">
    </a>
-   <a href="http://cocoapods.org/pods/CaseName">
-      <img src="https://img.shields.io/cocoapods/v/CaseName.svg?style=flat" alt="Version">
-   </a>
-   <a href="http://cocoapods.org/pods/CaseName">
-      <img src="https://img.shields.io/cocoapods/p/CaseName.svg?style=flat" alt="Platform">
-   </a>
-   <a href="https://github.com/Carthage/Carthage">
-      <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage Compatible">
-   </a>
    <a href="https://github.com/apple/swift-package-manager">
       <img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg" alt="SPM">
    </a>
@@ -23,70 +14,69 @@
 # CaseName
 
 <p align="center">
-ℹ️ Short description of CaseName
+CaseName - библиотека на Swift, предназначенная для склонения имен и отчеств на русском языке.
 </p>
 
-## Features
+## Преимущества
 
-- [x] ℹ️ Add CaseName features
+- [x] Небольшой размер библиотеки
+- [x] Простота установки и использования
+- [x] Работа с именами-исключениями, не попадающими под правила
+- [x] Добавление склоняемого слова к числу 
 
-## Example
+## Пример
 
-The example application is the best way to see `CaseName` in action. Simply open the `CaseName.xcodeproj` and run the `Example` scheme.
+Пример приложения - лучший способ увидеть `CaseName` в действии. Просто откройте файл `CaseName.xcodeproj` и запустите ` Example`.
 
-## Installation
-
-### CocoaPods
-
-CaseName is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```bash
-pod 'CaseName'
-```
-
-### Carthage
-
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
-
-To integrate CaseName into your Xcode project using Carthage, specify it in your `Cartfile`:
-
-```ogdl
-github "moslienko/CaseName"
-```
-
-Run `carthage update` to build the framework and drag the built `CaseName.framework` into your Xcode project. 
-
-On your application targets’ “Build Phases” settings tab, click the “+” icon and choose “New Run Script Phase” and add the Framework path as mentioned in [Carthage Getting started Step 4, 5 and 6](https://github.com/Carthage/Carthage/blob/master/README.md#if-youre-building-for-ios-tvos-or-watchos)
-
+## Установка
 ### Swift Package Manager
 
-To integrate using Apple's [Swift Package Manager](https://swift.org/package-manager/), add the following as a dependency to your `Package.swift`:
+Для интеграции с использованием Apple [Swift Package Manager] (https://swift.org/package-manager/) добавьте следующее в качестве зависимости к вашему `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/moslienko/CaseName.git", from: "1.0.0")
+    .package(url: "https://github.com/moslienko/CaseName.git", from: "1.1.0")
 ]
 ```
 
-Alternatively navigate to your Xcode project, select `Swift Packages` and click the `+` icon to search for `CaseName`.
+В качестве альтернативы перейдите в свой проект Xcode, выберите «Swift Packages» и щелкните значок «+» для поиска «CaseName».
 
-### Manually
+### Вручную
 
-If you prefer not to use any of the aforementioned dependency managers, you can integrate CaseName into your project manually. Simply drag the `Sources` Folder into your Xcode project.
+Если вы предпочитаете не использовать ни один из вышеупомянутых менеджеров зависимостей, вы можете вручную интегрировать CaseName в свой проект. Просто перетащите папку `Sources` в свой проект Xcode.
 
-## Usage
+## Использование
+### Пример использование - имя
+    let name = "Элла"
+    print ("И.П: ",name)
+	print ("Р.П: ",name.caseName().genitive)
+	print ("Д.П: ",name.caseName().dative)
+	print ("В.П: ",name.caseName().accusative)
+	print ("Т.П: ",name.caseName().instrumental)
+	print ("П.П: ",name.caseName().prepositional)
+### Пример использование - отчество
+    let middleName = "Викторовна"
+    print ("И.П: ",middleName)
+	print ("Р.П: ",middleName.caseMiddleName().genitive)
+	print ("Д.П: ",middleName.caseMiddleName().dative)
+	print ("В.П: ",middleName.caseMiddleName().accusative)
+	print ("Т.П: ",middleName.caseMiddleName().instrumental)
+	print ("П.П: ",middleName.caseMiddleName().prepositional)
+### Пример использование - число
+  ```swift
+  for i in 1...100 {
+            let value = String.caseWordEndingByCount(i, single: "день", genitiveSingle: "дней", genitiveAny: "дня")
+            print("value - \(i) \(value)")
+        }
+//value - 1 день...value - 2 дня...value - 5 дней...value - 44 дня...value - 45 дней
+```
 
-ℹ️ Describe the usage of your Kit
-
-## Contributing
-Contributions are very welcome 🙌
 
 ## License
 
 ```
 CaseName
-Copyright (c) 2021 moslienko 8676976+moslienko@users.noreply.github.com
+Copyright (c) 2021 Pavel Moslienko 8676976+moslienko@users.noreply.github.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
