@@ -1,0 +1,7 @@
+# CaseName document generator jazzy settings
+
+copyright: Copyright 2021 moslienko
+author: Pavel Moslienko
+xcodebuild_arguments: [-target, CaseName-iOS]
+clean: true
+output: ./Documentation
