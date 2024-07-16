@@ -11,12 +11,6 @@
 		3D9C42B1227459C1000A6585 /* CaseName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* CaseName.swift */; };
 		3D9C42BF227459F6000A6585 /* CaseName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* CaseName.swift */; };
 		3D9C42CD22745A28000A6585 /* CaseName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42A122745900000A6585 /* CaseName.swift */; };
-		3D9C42F62274604A000A6585 /* CaseName.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C429022745894000A6585 /* CaseName.framework */; };
-		3D9C42FC22746078000A6585 /* CaseNameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42D722745CDE000A6585 /* CaseNameTests.swift */; };
-		3D9C43062274611B000A6585 /* CaseName.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C42A92274599D000A6585 /* CaseName.framework */; };
-		3D9C430C22746131000A6585 /* CaseNameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42D722745CDE000A6585 /* CaseNameTests.swift */; };
-		3D9C431622746198000A6585 /* CaseName.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C42C522745A07000A6585 /* CaseName.framework */; };
-		3D9C431C227461AF000A6585 /* CaseNameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C42D722745CDE000A6585 /* CaseNameTests.swift */; };
 		3D9C43242274629B000A6585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C43232274629B000A6585 /* AppDelegate.swift */; };
 		3D9C43262274629B000A6585 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C43252274629B000A6585 /* ViewController.swift */; };
 		3D9C432B2274629C000A6585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9C432A2274629C000A6585 /* Assets.xcassets */; };
@@ -30,27 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3D9C42F72274604A000A6585 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3D9C428F22745894000A6585;
-			remoteInfo = "CaseName-iOS";
-		};
-		3D9C43072274611B000A6585 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3D9C42A82274599D000A6585;
-			remoteInfo = "CaseName-tvOS";
-		};
-		3D9C431722746198000A6585 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3D9C428722745894000A6585 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3D9C42C422745A07000A6585;
-			remoteInfo = "CaseName-macOS";
-		};
 		3D9C433622746323000A6585 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3D9C428722745894000A6585 /* Project object */;
@@ -87,14 +60,9 @@
 		3D9C42D422745B48000A6585 /* CaseName.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CaseName.podspec; sourceTree = SOURCE_ROOT; };
 		3D9C42D522745B48000A6585 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		3D9C42D622745C9D000A6585 /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = SOURCE_ROOT; };
-		3D9C42D722745CDE000A6585 /* CaseNameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseNameTests.swift; sourceTree = "<group>"; };
 		3D9C42D822745DAF000A6585 /* .jazzy.yaml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .jazzy.yaml; sourceTree = SOURCE_ROOT; };
 		3D9C42D922745DAF000A6585 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		3D9C42DB22745DB0000A6585 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
-		3D9C42EC22745FDA000A6585 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
-		3D9C42F12274604A000A6585 /* CaseName-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CaseName-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D9C43012274611B000A6585 /* CaseName-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CaseName-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D9C431122746198000A6585 /* CaseName-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CaseName-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C43212274629B000A6585 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C43232274629B000A6585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D9C43252274629B000A6585 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,30 +101,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D9C42EE2274604A000A6585 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D9C42F62274604A000A6585 /* CaseName.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42FE2274611B000A6585 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D9C43062274611B000A6585 /* CaseName.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C430E22746198000A6585 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D9C431622746198000A6585 /* CaseName.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3D9C431E2274629B000A6585 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				3D9C42A0227458FA000A6585 /* Sources */,
-				3D9C42A32274595F000A6585 /* Tests */,
 				3D9C43222274629B000A6585 /* Example */,
 				3D9C429B227458E8000A6585 /* Configs */,
 				3D9C429122745894000A6585 /* Products */,
@@ -186,9 +129,6 @@
 				3D9C42A92274599D000A6585 /* CaseName.framework */,
 				3D9C42B7227459D6000A6585 /* CaseName.framework */,
 				3D9C42C522745A07000A6585 /* CaseName.framework */,
-				3D9C42F12274604A000A6585 /* CaseName-iOSTests.xctest */,
-				3D9C43012274611B000A6585 /* CaseName-tvOSTests.xctest */,
-				3D9C431122746198000A6585 /* CaseName-macOSTests.xctest */,
 				3D9C43212274629B000A6585 /* Example.app */,
 			);
 			name = Products;
@@ -214,19 +154,9 @@
 		3D9C42A0227458FA000A6585 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3D9C42A122745900000A6585 /* CaseName.swift */,
-				955701EB2619BAD600252480 /* Extension+String.swift */,
+				950748DC2C454F0D0033801C /* CaseName */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		3D9C42A32274595F000A6585 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				3D9C42EC22745FDA000A6585 /* LinuxMain.swift */,
-				3D9C42D722745CDE000A6585 /* CaseNameTests.swift */,
-			);
-			path = Tests;
 			sourceTree = "<group>";
 		};
 		3D9C43222274629B000A6585 /* Example */ = {
@@ -247,6 +177,15 @@
 				3D9C432F2274629C000A6585 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		950748DC2C454F0D0033801C /* CaseName */ = {
+			isa = PBXGroup;
+			children = (
+				3D9C42A122745900000A6585 /* CaseName.swift */,
+				955701EB2619BAD600252480 /* Extension+String.swift */,
+			);
+			path = CaseName;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,60 +298,6 @@
 			productReference = 3D9C42C522745A07000A6585 /* CaseName.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3D9C42F02274604A000A6585 /* CaseName-iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D9C42F92274604A000A6585 /* Build configuration list for PBXNativeTarget "CaseName-iOSTests" */;
-			buildPhases = (
-				3D9C42ED2274604A000A6585 /* Sources */,
-				3D9C42EE2274604A000A6585 /* Frameworks */,
-				3D9C42EF2274604A000A6585 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3D9C42F82274604A000A6585 /* PBXTargetDependency */,
-			);
-			name = "CaseName-iOSTests";
-			productName = "CaseName-iOSTests";
-			productReference = 3D9C42F12274604A000A6585 /* CaseName-iOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3D9C43002274611B000A6585 /* CaseName-tvOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D9C43092274611B000A6585 /* Build configuration list for PBXNativeTarget "CaseName-tvOSTests" */;
-			buildPhases = (
-				3D9C42FD2274611B000A6585 /* Sources */,
-				3D9C42FE2274611B000A6585 /* Frameworks */,
-				3D9C42FF2274611B000A6585 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3D9C43082274611B000A6585 /* PBXTargetDependency */,
-			);
-			name = "CaseName-tvOSTests";
-			productName = "CaseName-tvOSTests";
-			productReference = 3D9C43012274611B000A6585 /* CaseName-tvOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3D9C431022746198000A6585 /* CaseName-macOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3D9C431922746198000A6585 /* Build configuration list for PBXNativeTarget "CaseName-macOSTests" */;
-			buildPhases = (
-				3D9C430D22746198000A6585 /* Sources */,
-				3D9C430E22746198000A6585 /* Frameworks */,
-				3D9C430F22746198000A6585 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3D9C431822746198000A6585 /* PBXTargetDependency */,
-			);
-			name = "CaseName-macOSTests";
-			productName = "CaseName-macOSTests";
-			productReference = 3D9C431122746198000A6585 /* CaseName-macOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		3D9C43202274629B000A6585 /* Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D9C43302274629C000A6585 /* Build configuration list for PBXNativeTarget "Example" */;
@@ -455,15 +340,6 @@
 					3D9C42C422745A07000A6585 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					3D9C42F02274604A000A6585 = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
-					3D9C43002274611B000A6585 = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
-					3D9C431022746198000A6585 = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
 					3D9C43202274629B000A6585 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -486,9 +362,6 @@
 				3D9C42A82274599D000A6585 /* CaseName-tvOS */,
 				3D9C42B6227459D6000A6585 /* CaseName-watchOS */,
 				3D9C42C422745A07000A6585 /* CaseName-macOS */,
-				3D9C42F02274604A000A6585 /* CaseName-iOSTests */,
-				3D9C43002274611B000A6585 /* CaseName-tvOSTests */,
-				3D9C431022746198000A6585 /* CaseName-macOSTests */,
 				3D9C43202274629B000A6585 /* Example */,
 			);
 		};
@@ -517,27 +390,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3D9C42C322745A07000A6585 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42EF2274604A000A6585 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42FF2274611B000A6585 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C430F22746198000A6585 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -667,30 +519,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D9C42ED2274604A000A6585 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D9C42FC22746078000A6585 /* CaseNameTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C42FD2274611B000A6585 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D9C430C22746131000A6585 /* CaseNameTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3D9C430D22746198000A6585 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3D9C431C227461AF000A6585 /* CaseNameTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3D9C431D2274629B000A6585 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -703,21 +531,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3D9C42F82274604A000A6585 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3D9C428F22745894000A6585 /* CaseName-iOS */;
-			targetProxy = 3D9C42F72274604A000A6585 /* PBXContainerItemProxy */;
-		};
-		3D9C43082274611B000A6585 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3D9C42A82274599D000A6585 /* CaseName-tvOS */;
-			targetProxy = 3D9C43072274611B000A6585 /* PBXContainerItemProxy */;
-		};
-		3D9C431822746198000A6585 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3D9C42C422745A07000A6585 /* CaseName-macOS */;
-			targetProxy = 3D9C431722746198000A6585 /* PBXContainerItemProxy */;
-		};
 		3D9C433722746323000A6585 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3D9C428F22745894000A6585 /* CaseName-iOS */;
@@ -1106,120 +919,6 @@
 			};
 			name = Release;
 		};
-		3D9C42FA2274604A000A6585 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Configs/CaseNameTests.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.moslienko.CaseName-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3D9C42FB2274604A000A6585 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Configs/CaseNameTests.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.moslienko.CaseName-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		3D9C430A2274611B000A6585 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Configs/CaseNameTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.moslienko.CaseName-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		3D9C430B2274611B000A6585 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Configs/CaseNameTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.moslienko.CaseName-tvOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Release;
-		};
-		3D9C431A22746198000A6585 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Configs/CaseNameTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.moslienko.CaseName-macOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		3D9C431B22746198000A6585 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Configs/CaseNameTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.moslienko.CaseName-macOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		3D9C43312274629C000A6585 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1306,33 +1005,6 @@
 			buildConfigurations = (
 				3D9C42CB22745A07000A6585 /* Debug */,
 				3D9C42CC22745A07000A6585 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3D9C42F92274604A000A6585 /* Build configuration list for PBXNativeTarget "CaseName-iOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D9C42FA2274604A000A6585 /* Debug */,
-				3D9C42FB2274604A000A6585 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3D9C43092274611B000A6585 /* Build configuration list for PBXNativeTarget "CaseName-tvOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D9C430A2274611B000A6585 /* Debug */,
-				3D9C430B2274611B000A6585 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3D9C431922746198000A6585 /* Build configuration list for PBXNativeTarget "CaseName-macOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3D9C431A22746198000A6585 /* Debug */,
-				3D9C431B22746198000A6585 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
