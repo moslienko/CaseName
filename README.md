@@ -1,5 +1,5 @@
 <p align="center">
-   <img width="200" src="https://raw.githubusercontent.com/SvenTiigi/SwiftKit/gh-pages/readMeAssets/SwiftKitLogo.png" alt="CaseName Logo">
+   <img width="200" src="https://moslienko.github.io/Assets/CaseName/sdk.png" alt="CaseName Logo">
 </p>
 
 <p align="center">
@@ -35,7 +35,7 @@ CaseName - библиотека на Swift, предназначенная дл�
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/moslienko/CaseName.git", from: "1.1.0")
+    .package(url: "https://github.com/moslienko/CaseName.git", from: "1.2.0")
 ]
 ```
 
@@ -62,7 +62,7 @@ dependencies: [
 	print ("В.П: ",middleName.caseMiddleName().accusative)
 	print ("Т.П: ",middleName.caseMiddleName().instrumental)
 	print ("П.П: ",middleName.caseMiddleName().prepositional)
-### Пример использование - число
+### Пример использования - число
   ```swift
   for i in 1...100 {
             let value = String.caseWordEndingByCount(i, single: "день", genitiveSingle: "дней", genitiveAny: "дня")
